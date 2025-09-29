@@ -1,0 +1,40 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vsidx
+
+# Build results
+*_ReSharper*/
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+
+# IIS Express
+IISExpress/
+applicationhost.config
+
+# Publish
+*.Publish.xml
+*.PublishProfiles/
+
+# Logs, DB, temporary
+*.log
+*.mdf
+*.ldf
+*.dbmdl
+
+# Rider, VS Code, IDE files
+.idea/
+.vscode/
+
+# Others
+*.cache
+*.pdb
