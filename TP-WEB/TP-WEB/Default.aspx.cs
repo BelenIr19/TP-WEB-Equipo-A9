@@ -13,5 +13,10 @@ namespace TP_WEB
         {
 
         }
+
+        protected void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            string voucher = txtVoucher.Text;
+        }
     }
 }
