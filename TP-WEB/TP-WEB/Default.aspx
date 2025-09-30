@@ -9,6 +9,7 @@
         <div class="col-2"></div>
         <div class="col">
             <div class="mb-3">
+                <br />
                 <asp:Label Text="Ingresá el código de tu voucher" ID="lblVoucher" runat="server" />
                 <asp:TextBox ID="txtVoucher" CssClass="form-control" runat="server" />
             </div>

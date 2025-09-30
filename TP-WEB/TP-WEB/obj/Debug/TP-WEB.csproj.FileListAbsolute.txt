@@ -116,3 +116,9 @@ C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP
 C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.csproj.Up2Date
 C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.dll
 C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.pdb
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\dominio.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\negocio.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\dominio.pdb
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\dominio.dll.config
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\negocio.pdb
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\negocio.dll.config
