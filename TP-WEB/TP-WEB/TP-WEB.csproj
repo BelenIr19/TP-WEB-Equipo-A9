@@ -105,16 +105,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\dominio\dominio.csproj">
-      <Project>{06d256c4-f6f1-4efc-b58c-a1aeff384bd9}</Project>
-      <Name>dominio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\negocio\negocio.csproj">
-      <Project>{c5cc4cf2-99f0-47ee-a681-141e59f120b4}</Project>
-      <Name>negocio</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
