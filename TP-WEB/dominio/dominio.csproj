@@ -73,12 +73,14 @@
   <ItemGroup>
     <Compile Include="Articulo.cs" />
     <Compile Include="Categoria.cs" />
+    <Compile Include="Cliente.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Imagen.cs" />
     <Compile Include="Marca.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Voucher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
