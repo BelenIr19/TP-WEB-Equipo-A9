@@ -30,6 +30,11 @@ namespace TP_WEB
 
             rptArticulos.DataSource = listaArticulo;
             rptArticulos.DataBind();
+
+            foreach (Articulo art in listaArticulo)
+            {
+
+            }
         }
     }
 }

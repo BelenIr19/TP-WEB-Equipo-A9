@@ -45,7 +45,7 @@ namespace negocio
                     lista.Add(aux);
                 }
 
-                lista = lista
+                /*lista = lista
                 .GroupBy(a => new
                 {
                     a.Codigo,
@@ -56,7 +56,7 @@ namespace negocio
                     a.Precio
                 })
                 .Select(g => g.First())
-                .ToList();
+                .ToList();*/
 
                 return lista;
             }
@@ -95,10 +95,10 @@ namespace negocio
                     }
                 }
 
-                imagenes = imagenes
+                /*imagenes = imagenes
                 .GroupBy(i => i.Url.Trim().ToLower())
                 .Select(g => g.First())
-                .ToList();
+                .ToList();*/
 
                 return imagenes;
             }
