@@ -1,11 +1,12 @@
-﻿using System;
+﻿using dominio;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
-using dominio;
 
 namespace negocio
 {
@@ -38,8 +39,25 @@ namespace negocio
                     aux.IdCategoria = new Categoria();
                     aux.IdCategoria.Id = (int)datos.Lector["IdCategoria"];
                     aux.IdCategoria.Descripcion = (string)datos.Lector["Categoria"];
-  
+
+                    aux.Imagenes = ImgArticulos(aux.Id);
+
+                    lista.Add(aux);
                 }
+
+                lista = lista
+                .GroupBy(a => new
+                {
+                    a.Codigo,
+                    a.Nombre,
+                    a.Descripcion,
+                    Marca = a.IdMarca?.Descripcion,
+                    Categoria = a.IdCategoria?.Descripcion,
+                    a.Precio
+                })
+                .Select(g => g.First())
+                .ToList();
+
                 return lista;
             }
             catch (Exception ex)
@@ -53,5 +71,45 @@ namespace negocio
             }
         }
 
+
+        public List<Imagen> ImgArticulos(int idArticulo)
+        {
+            List<Imagen> imagenes = new List<Imagen>();
+            AccesoDatos datosImg = new AccesoDatos();
+
+            try
+            {
+                datosImg.setearConsulta("SELECT IdArticulo, ImagenUrl FROM IMAGENES WHERE IdArticulo = @id");
+                datosImg.setearParametro("@id", idArticulo);
+                datosImg.ejecutarLectura();
+
+                while (datosImg.Lector.Read())
+                {
+                    Imagen img = new Imagen();
+                    img.IdArticulo = (int)datosImg.Lector["IdArticulo"];
+                    img.Url = datosImg.Lector["ImagenUrl"].ToString();
+
+                    if (!string.IsNullOrWhiteSpace(img.Url))
+                    {
+                        imagenes.Add(img);
+                    }
+                }
+
+                imagenes = imagenes
+                .GroupBy(i => i.Url.Trim().ToLower())
+                .Select(g => g.First())
+                .ToList();
+
+                return imagenes;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datosImg.cerrarConexion();
+            }
+        }
     }
 }

@@ -28,6 +28,7 @@ namespace TP_WEB
                 //Mostrar un mensaje de error si el campo está vacío
                 Response.Write("<script>alert('Debe ingresar un código de voucher.');</script>");
             }
+            Response.Redirect("PagPremio.aspx", false);
         }
     }
 }
