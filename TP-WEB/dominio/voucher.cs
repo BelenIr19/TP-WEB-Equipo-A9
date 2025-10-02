@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace dominio
 {
-    public class Voucher
     public class voucher
     {
         public string CodigoVoucher { get; set; }
