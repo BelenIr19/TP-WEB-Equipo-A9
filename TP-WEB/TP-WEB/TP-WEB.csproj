@@ -107,11 +107,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\dominio\dominio.csproj">
-      <Project>{06d256c4-f6f1-4efc-b58c-a1aeff384bd9}</Project>
+      <Project>{1f0b5675-1e7c-4c2f-814d-c1633d277d4b}</Project>
       <Name>dominio</Name>
     </ProjectReference>
     <ProjectReference Include="..\negocio\negocio.csproj">
-      <Project>{c5cc4cf2-99f0-47ee-a681-141e59f120b4}</Project>
+      <Project>{f872173c-e5ce-4a3e-8906-50e4e6f57145}</Project>
       <Name>negocio</Name>
     </ProjectReference>
   </ItemGroup>

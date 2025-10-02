@@ -1,4 +1,6 @@
-﻿using System;
+﻿using dominio;
+using negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,17 +18,16 @@ namespace TP_WEB
 
         protected void btnSiguiente_Click(object sender, EventArgs e)
         {
-            string voucherCode = txtVoucher.Text;
+            VoucherNegocio negocio = new VoucherNegocio();
+            string codigo = txtVoucher.Text;
 
-            if (!string.IsNullOrEmpty(voucherCode))
+            if (negocio.EstaDisponible(codigo))
             {
-                //Lógica para verificar el voucher en la base de datos
-                Response.Write("Código ingresado: " + voucherCode);
+                // Redirigir a la pantalla de selección de artículo
             }
             else
             {
-                //Mostrar un mensaje de error si el campo está vacío
-                Response.Write("<script>alert('Debe ingresar un código de voucher.');</script>");
+                lblErrorVoucher.Text = "El voucher no existe o ya fue utilizado.";
             }
         }
     }
