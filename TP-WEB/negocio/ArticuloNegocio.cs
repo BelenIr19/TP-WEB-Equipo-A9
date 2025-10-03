@@ -2,6 +2,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -45,7 +47,7 @@ namespace negocio
                     lista.Add(aux);
                 }
 
-                /*lista = lista
+                lista = lista
                 .GroupBy(a => new
                 {
                     a.Codigo,
@@ -56,7 +58,7 @@ namespace negocio
                     a.Precio
                 })
                 .Select(g => g.First())
-                .ToList();*/
+                .ToList();
 
                 return lista;
             }
@@ -95,10 +97,10 @@ namespace negocio
                     }
                 }
 
-                /*imagenes = imagenes
+                imagenes = imagenes
                 .GroupBy(i => i.Url.Trim().ToLower())
                 .Select(g => g.First())
-                .ToList();*/
+                .ToList();
 
                 return imagenes;
             }
@@ -111,5 +113,8 @@ namespace negocio
                 datosImg.cerrarConexion();
             }
         }
+
+
+        
     }
 }

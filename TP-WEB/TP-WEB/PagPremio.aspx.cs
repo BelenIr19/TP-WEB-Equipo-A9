@@ -2,6 +2,8 @@
 using negocio;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -24,16 +26,23 @@ namespace TP_WEB
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
             List<Articulo> listaArticulo = new List<Articulo>();
-            List<Imagen> listaImg = new List<Imagen>();
 
             listaArticulo = negocio.listar();
 
             rptArticulos.DataSource = listaArticulo;
             rptArticulos.DataBind();
 
-            foreach (Articulo art in listaArticulo)
-            {
+        }
 
+        protected void rptArticulos_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            if (e.Item.ItemType == ListItemType.AlternatingItem || e.Item.ItemType == ListItemType.Item)
+            {
+                var rptImagenes = (Repeater)e.Item.FindControl("rptImagenes");
+                var articulo = (Articulo)e.Item.DataItem;
+                
+                rptImagenes.DataSource = articulo.Imagenes;
+                rptImagenes.DataBind();
             }
         }
     }

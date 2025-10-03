@@ -29,6 +29,7 @@ namespace TP_WEB
             {
                 lblErrorVoucher.Text = "El voucher no existe o ya fue utilizado.";
             }
+
             Response.Redirect("PagPremio.aspx", false);
         }
     }
