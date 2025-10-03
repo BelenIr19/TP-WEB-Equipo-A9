@@ -46,9 +46,16 @@ namespace TP_WEB
             }
         }
 
-        protected void btnseleccionar_Click(object sender, EventArgs e)
+        protected void btnseleccionar_Command(object sender, CommandEventArgs e)
         {
+            if(e.CommandName == "Seleccionado")
+            {
+                int idArticulo = int.Parse(e.CommandArgument.ToString());
+                Session["ArticuloID"] = idArticulo;
 
+                //Redirigir a la página del formulario 
+                //Response.Redirect("", false);
+            }
         }
     }
 }

@@ -54,12 +54,20 @@
                         <div class="card-body">
                             <h5 class="card-title"><%# Eval("nombre") %></h5>
                             <p class="card-text"><%#Eval("descripcion") %> </p>
-                            <asp:Button Text="Seleccionar" CssClass="btn btn-primary" ID="btnseleccionar" OnClick="btnseleccionar_Click" runat="server" />
+                            <asp:Button Text="Seleccionar" CssClass="btn btn-primary" ID="btnseleccionar" 
+                                        CommandArgument='<%# Eval("Id") %>'
+                                        CommandName="Seleccionado" 
+                                        OnCommand="btnseleccionar_Command" 
+                                        runat="server" />
                         </div>
                     </div>
                 </div>
             </ItemTemplate>
         </asp:Repeater>
+        <div>
+            <asp:Label Text="" ID="txtPrueba1" CssClass="form-label" runat="server" />
+            <asp:Label Text="" ID="txtPrueba2" CssClass="form-label" runat="server" />
+        </div>
         <div class="col-1"></div>
     </div>
 </asp:Content>
