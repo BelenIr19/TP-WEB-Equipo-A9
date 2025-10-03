@@ -18,52 +18,54 @@
     <!-- Cards -->
     <div class="row">
         <div class="col-1"></div>
-        <asp:Repeater ID="rptArticulos" runat="server" OnItemDataBound="rptArticulos_ItemDataBound">
-            <ItemTemplate>
-                <div class="col-3">
-                    <br />
-                    <div class="card border border-black" style="width: 18rem;">
+        <div class="row justify-content-center">
+            <asp:Repeater ID="rptArticulos" runat="server" OnItemDataBound="rptArticulos_ItemDataBound">
+                <ItemTemplate>
+                    <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center mb-4">
+                        <br />
+                        <div class="card border border-black" style="width: 18rem;">
 
-                        <!-- Carrusel por cada artículo -->
-                        <div id='<%# "carrusel" + Container.ItemIndex %>' class="carousel slide">
-                            <div class="carousel-inner">
-                                <asp:Repeater ID="rptImagenes" runat="server">
-                                    <ItemTemplate>
-                                        <div class='carousel-item <%# (Container.ItemIndex == 0 ? "active" : "") %>'>
-                                            <img src='<%# Eval("Url") %>' class="d-block w-100" alt="Imagen">
-                                        </div>
-                                    </ItemTemplate>
-                                </asp:Repeater>
+                            <!-- Carrusel por cada artículo -->
+                            <div id='<%# "carrusel" + Container.ItemIndex %>' class="carousel slide">
+                                <div class="carousel-inner">
+                                    <asp:Repeater ID="rptImagenes" runat="server">
+                                        <ItemTemplate>
+                                            <div class='carousel-item <%# (Container.ItemIndex == 0 ? "active" : "") %>'>
+                                                <img src='<%# Eval("Url") %>' class="d-block w-100" style="height: 200px; object-fit: cover;" alt="Imagen">
+                                            </div>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                </div>
+
+                                <!-- Controles -->
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target='<%# "#carrusel" + Container.ItemIndex %>' data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target='<%# "#carrusel" + Container.ItemIndex %>' data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
 
-                            <!-- Controles -->
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target='<%# "#carrusel" + Container.ItemIndex %>' data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target='<%# "#carrusel" + Container.ItemIndex %>' data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-
-                        <!-- Nombre y descripcion -->
-                        <div class="card-body">
-                            <h5 class="card-title"><%# Eval("nombre") %></h5>
-                            <p class="card-text"><%#Eval("descripcion") %> </p>
-                            <asp:Button Text="Seleccionar" CssClass="btn btn-primary" ID="btnseleccionar" 
-                                        CommandArgument='<%# Eval("Id") %>'
-                                        CommandName="Seleccionado" 
-                                        OnCommand="btnseleccionar_Command" 
-                                        runat="server" />
+                            <!-- Nombre y descripcion -->
+                            <div class="card-body">
+                                <h5 class="card-title"><%# Eval("nombre") %></h5>
+                                <p class="card-text"><%#Eval("descripcion") %> </p>
+                                <asp:Button Text="Seleccionar" CssClass="btn btn-primary" ID="btnseleccionar"
+                                    CommandArgument='<%# Eval("Id") %>'
+                                    CommandName="Seleccionado"
+                                    OnCommand="btnseleccionar_Command"
+                                    runat="server" />
+                            </div>
                         </div>
                     </div>
-                </div>
-            </ItemTemplate>
-        </asp:Repeater>
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>
         <div>
             <asp:Label Text="" ID="txtPrueba1" CssClass="form-label" runat="server" />
             <asp:Label Text="" ID="txtPrueba2" CssClass="form-label" runat="server" />
