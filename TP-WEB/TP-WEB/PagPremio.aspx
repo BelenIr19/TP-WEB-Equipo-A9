@@ -54,7 +54,7 @@
                         <div class="card-body">
                             <h5 class="card-title"><%# Eval("nombre") %></h5>
                             <p class="card-text"><%#Eval("descripcion") %> </p>
-                            <asp:Button Text="Seleccionar" CssClass="btn btn-primary" ID="btnseleccionar" runat="server" />
+                            <asp:Button Text="Seleccionar" CssClass="btn btn-primary" ID="btnseleccionar" OnClick="btnseleccionar_Click" runat="server" />
                         </div>
                     </div>
                 </div>

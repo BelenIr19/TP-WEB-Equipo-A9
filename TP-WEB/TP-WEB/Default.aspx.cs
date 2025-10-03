@@ -24,13 +24,13 @@ namespace TP_WEB
             if (negocio.EstaDisponible(codigo))
             {
                 // Redirigir a la pantalla de selección de artículo
+                Response.Redirect("PagPremio.aspx", false);
+                Session["Voucher"] = codigo;
             }
             else
             {
                 lblErrorVoucher.Text = "El voucher no existe o ya fue utilizado.";
             }
-
-            Response.Redirect("PagPremio.aspx", false);
         }
     }
 }

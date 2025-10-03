@@ -45,5 +45,10 @@ namespace TP_WEB
                 rptImagenes.DataBind();
             }
         }
+
+        protected void btnseleccionar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
