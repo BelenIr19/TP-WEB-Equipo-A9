@@ -12,7 +12,7 @@
         <!-- DNI -->
         <div class="mb-3">
             <label for="txtDNI" class="form-label">DNI</label>
-            <asp:TextBox ID="txtDNI" runat="server" CssClass="form-control" OnTextChanged="txtDNI_TextChanged"/>
+            <asp:TextBox ID="txtDNI" runat="server" CssClass="form-control" AutoPostBack="true" OnTextChanged="txtDNI_TextChanged"/>
             <asp:RequiredFieldValidator ID="rfvDNI" runat="server"
                 ControlToValidate="txtDNI" CssClass="text-danger"
                 ErrorMessage="El DNI es obligatorio." Display="Dynamic" />

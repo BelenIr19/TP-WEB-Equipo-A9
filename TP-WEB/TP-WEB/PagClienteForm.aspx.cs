@@ -13,7 +13,10 @@ namespace TP_WEB
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                // Al cargar la página inicial, no hace nada.
+            }
         }
 
         protected void txtDNI_TextChanged(object sender, EventArgs e)
