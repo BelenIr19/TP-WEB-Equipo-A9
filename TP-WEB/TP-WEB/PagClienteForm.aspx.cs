@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using dominio;
+using negocio;
 
 namespace TP_WEB
 {
@@ -12,6 +14,27 @@ namespace TP_WEB
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void txtDNI_TextChanged(object sender, EventArgs e)
+        {
+            string dni = txtDNI.Text;
+            if(!string.IsNullOrEmpty(dni))
+            {
+                ClienteNegocio negocio = new ClienteNegocio();
+
+                Cliente cliente = negocio.BuscarCliente(dni);
+
+                if (cliente != null)
+                {
+                    txtNombre.Text = cliente.Nombre;
+                    txtApellido.Text = cliente.Apellido;
+                    txtEmail.Text = cliente.Email;
+                    txtDireccion.Text = cliente.Direccion;
+                    txtCiudad.Text = cliente.Ciudad;
+                    txtCP.Text = cliente.CP.ToString();
+                }
+            }
         }
     }
 }

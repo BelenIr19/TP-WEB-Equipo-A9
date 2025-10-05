@@ -7,34 +7,36 @@ using dominio;
 
 namespace negocio
 {
-    internal class ClienteNegocio
+    public class ClienteNegocio
     {
-        private AccesoDatos datos = new AccesoDatos();
-
-        public void agregar(Cliente nuevo)
+        public Cliente BuscarCliente(string dni)
         {
-            try
-            {
-                datos.setearConsulta("INSERT INTO clientes (Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP) VALUES (@Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)");
-                datos.setearParametro("@Documento",nuevo.Documento);
-                datos.setearParametro("@Nombre", nuevo.Nombre);
-                datos.setearParametro("@Apellido", nuevo.Apellido);
-                datos.setearParametro("@Email", nuevo.Email);
-                datos.setearParametro("@Direccion",nuevo.Direccion);
-                datos.setearParametro("@Ciudad", nuevo.Ciudad);
-                datos.setearParametro("@CP", nuevo.CP);
+			AccesoDatos datos = new AccesoDatos();
+            Cliente cliente = new Cliente();
+            cliente = null;
 
-                datos.ejecutarAccion();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                datos.cerrarConexion();
-            }
+            try
+			{
+				datos.setearConsulta("SELECT Nombre, Apellido, Email, Direccion, Ciudad, CP FROM Clientes WHERE Documento = @documento");
+                datos.setearParametro("@documento", dni);
+                datos.ejecutarLectura();
+                if (datos.Lector.Read())
+                {
+                    cliente = new Cliente();
+                    cliente.Nombre = (string)datos.Lector["Nombre"];
+                    cliente.Apellido = (string)datos.Lector["Apellido"];
+                    cliente.Email = (string)datos.Lector["Email"];
+                    cliente.Direccion = (string)datos.Lector["Direccion"];
+                    cliente.Ciudad = (string)datos.Lector["Ciudad"];
+                    cliente.CP = (int)datos.Lector["CP"];
+                }
+
+                return cliente;
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
         }
-        
     }
 }
