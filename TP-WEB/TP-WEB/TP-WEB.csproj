@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="PagClienteForm.aspx" />
     <Content Include="PagPremio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="MiMaster.Master.designer.cs">
       <DependentUpon>MiMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PagClienteForm.aspx.cs">
+      <DependentUpon>PagClienteForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagClienteForm.aspx.designer.cs">
+      <DependentUpon>PagClienteForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="PagPremio.aspx.cs">
       <DependentUpon>PagPremio.aspx</DependentUpon>
