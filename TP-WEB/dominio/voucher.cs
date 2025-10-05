@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace dominio
-{
-    public class Voucher
+{ public class voucher
     {
         public string CodigoVoucher { get; set; }
         public int IdCliente { get; set; }

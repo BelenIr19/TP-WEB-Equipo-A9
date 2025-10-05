@@ -1,0 +1,126 @@
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\TP-WEB.dll.config
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\TP-WEB.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\TP-WEB.pdb
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csc.exe
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csc.exe.config
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csc.rsp
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csi.exe
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csi.exe.config
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csi.rsp
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.Managed.Core.targets
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.AppContext.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Collections.Immutable.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Console.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Globalization.Calendars.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.IO.Compression.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.IO.FileSystem.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Net.Http.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Net.Sockets.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.ValueTuple.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Xml.XmlDocument.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Xml.XPath.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\vbc.exe
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\vbc.exe.config
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\vbc.rsp
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\VBCSCompiler.exe
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\VBCSCompiler.exe.config
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.csproj.AssemblyReference.cache
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.csproj.CoreCompileInputs.cache
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.csproj.Up2Date
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.pdb
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\TP-WEB.dll.config
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\TP-WEB.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\TP-WEB.pdb
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csc.exe
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csc.exe.config
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csc.rsp
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csi.exe
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csi.exe.config
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\csi.rsp
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.AppContext.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Console.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.IO.Compression.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Net.Http.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.ValueTuple.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\vbc.exe
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\vbc.exe.config
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\vbc.rsp
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.csproj.Up2Date
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\obj\Debug\TP-WEB.pdb
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\dominio.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\negocio.dll
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\dominio.pdb
+C:\UTN\PROG-3\Actividades\TP-Web-Equipo-9A\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\negocio.pdb
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\dominio.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\negocio.dll
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\dominio.pdb
+C:\Users\Usuario\Desktop\Archivos\UTN\Programación 3\TP-WEB-Equipo-A9\TP-WEB\TP-WEB\bin\negocio.pdb
