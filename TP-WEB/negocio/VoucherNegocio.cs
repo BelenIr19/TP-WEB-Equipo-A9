@@ -35,6 +35,28 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
+
+        public void agregar(string codigo, int idArticulo, int idCliente, DateTime fecha)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta("UPDATE Vouchers SET IdArticulo = @IdArticulo, FechaCanje = @Fecha, IdCliente = @IdCliente WHERE CodigoVoucher = @Codigo;");
+                datos.setearParametro("@IdArticulo", idArticulo);
+                datos.setearParametro("@Fecha", fecha);
+                datos.setearParametro("@IdCliente", idCliente);
+                datos.setearParametro("@Codigo", codigo);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }
 

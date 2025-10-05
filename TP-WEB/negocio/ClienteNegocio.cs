@@ -17,12 +17,13 @@ namespace negocio
 
             try
 			{
-				datos.setearConsulta("SELECT Nombre, Apellido, Email, Direccion, Ciudad, CP FROM Clientes WHERE Documento = @documento");
+				datos.setearConsulta("SELECT Id, Nombre, Apellido, Email, Direccion, Ciudad, CP FROM Clientes WHERE Documento = @documento");
                 datos.setearParametro("@documento", dni);
                 datos.ejecutarLectura();
                 if (datos.Lector.Read())
                 {
                     cliente = new Cliente();
+                    cliente.Id = (int)datos.Lector["Id"];
                     cliente.Nombre = (string)datos.Lector["Nombre"];
                     cliente.Apellido = (string)datos.Lector["Apellido"];
                     cliente.Email = (string)datos.Lector["Email"];
@@ -37,6 +38,31 @@ namespace negocio
 			{
 				throw ex;
 			}
+        }
+
+        public void Agregar(Cliente nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta("INSERT INTO Clientes (Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP) VALUES (@documento, @nombre, @apellido, @email, @direccion, @ciudad, @cp)");
+                datos.setearParametro("@documento", nuevo.Documento);
+                datos.setearParametro("@nombre", nuevo.Nombre);
+                datos.setearParametro("@apellido", nuevo.Apellido);
+                datos.setearParametro("@email", nuevo.Email);
+                datos.setearParametro("@direccion", nuevo.Direccion);
+                datos.setearParametro("@ciudad", nuevo.Ciudad);
+                datos.setearParametro("@cp", nuevo.CP);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
         }
     }
 }

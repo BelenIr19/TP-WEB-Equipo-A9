@@ -54,7 +54,7 @@ namespace TP_WEB
                 Session["ArticuloID"] = idArticulo;
 
                 //Redirigir a la página del formulario 
-                //Response.Redirect("", false);
+                Response.Redirect("PagClienteForm.aspx", false);
             }
         }
     }

@@ -90,7 +90,7 @@
         </div>
 
         <!-- Botón -->
-        <asp:Button ID="btnParticipar" runat="server" CssClass="btn btn-primary" Text="Participar!" />
+        <asp:Button ID="btnParticipar" runat="server" CssClass="btn btn-primary" Text="Participar!"  OnClick="btnParticipar_Click"/>
     </div>
 
     <script type="text/javascript">
