@@ -70,6 +70,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="PagClienteForm.aspx" />
+    <Content Include="PagConfirmacion.aspx" />
     <Content Include="PagPremio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="PagClienteForm.aspx.designer.cs">
       <DependentUpon>PagClienteForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagConfirmacion.aspx.cs">
+      <DependentUpon>PagConfirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagConfirmacion.aspx.designer.cs">
+      <DependentUpon>PagConfirmacion.aspx</DependentUpon>
     </Compile>
     <Compile Include="PagPremio.aspx.cs">
       <DependentUpon>PagPremio.aspx</DependentUpon>

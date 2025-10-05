@@ -10,15 +10,15 @@ using System.Threading.Tasks;
 
 namespace negocio
 {
-    internal class EmailService
+    public class EmailService
     {
         private MailMessage email;
         private SmtpClient server;
-        
-        EmailService()
+
+        public EmailService()
         {
             server = new SmtpClient();
-            server.Credentials = new NetworkCredential("ejemploprogramacion3equipo9a@gmail.com", "Programacion39A");
+            server.Credentials = new NetworkCredential("ejemploprogramacion3equipo9a@gmail.com", "numohvibzcumukxi");
             server.EnableSsl = true;
             server.Port = 587;
             server.Host = "smtp.gmail.com";
@@ -26,11 +26,12 @@ namespace negocio
 
         public void armarCorreo(string destinatario, string nombre)
         {
-            string templatePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Templates/emailTemplate.html");
-            string body = File.ReadAllText(templatePath);
+            string templatePath = Path.Combine(Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory), "Templates/emailTemplate.html");
+            //Leer con encoding UTF-8 explícito
+            string body = File.ReadAllText(templatePath, Encoding.UTF8);
 
-            //variable
-            body = body.Replace("{{nombre}}", nombre);
+            //Reemplazar el placeholder
+            body = body.Replace("{Nombre}", nombre);
 
             email = new MailMessage();
             email.From = new MailAddress("noresponder@programacion3equipo9A.com");

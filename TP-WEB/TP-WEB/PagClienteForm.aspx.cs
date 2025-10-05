@@ -46,11 +46,14 @@ namespace TP_WEB
             Cliente cliente = new Cliente();
             ClienteNegocio negocioCliente = new ClienteNegocio();
             VoucherNegocio negocioVoucher = new VoucherNegocio();
+            EmailService emailService = new EmailService();
+
             try
             { 
                 cliente = negocioCliente.BuscarCliente(txtDNI.Text);
                 if (cliente == null)
                 {
+                    cliente = new Cliente();
                     cliente.Documento = txtDNI.Text;
                     cliente.Nombre = txtNombre.Text;
                     cliente.Apellido = txtApellido.Text;
@@ -60,10 +63,19 @@ namespace TP_WEB
                     cliente.CP = int.Parse(txtCP.Text);
 
                     negocioCliente.Agregar(cliente);
+                    cliente = negocioCliente.BuscarCliente(txtDNI.Text); //Para obtener el ID del cliente recién agregado
                 }
                 else
                 {
-                    //Cliente ya existe. No se agrega.
+                    cliente.Documento = txtDNI.Text;
+                    cliente.Nombre = txtNombre.Text;
+                    cliente.Apellido = txtApellido.Text;
+                    cliente.Email = txtEmail.Text;
+                    cliente.Direccion = txtDireccion.Text;
+                    cliente.Ciudad = txtCiudad.Text;
+                    cliente.CP = int.Parse(txtCP.Text);
+
+                    negocioCliente.Modificar(cliente);
                 }
 
                 //Agregar registro voucher a la base de datos 
@@ -71,11 +83,14 @@ namespace TP_WEB
                 int idArticulo = (int)Session["ArticuloID"];
                 int idCliente = cliente.Id;
                 DateTime fecha = DateTime.Now;
-
                 negocioVoucher.agregar(codigoVoucher, idArticulo, idCliente, fecha);
 
-                ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('Agregado! Gracias por participar');", true);
-                //Response.Redirect("PagFinal.aspx", false);
+                //Redirigir a la página final y mandar mail
+
+                emailService.armarCorreo(cliente.Email, cliente.Nombre);
+                emailService.enviarCorreo();
+
+                Response.Redirect("PagConfirmacion.aspx", false);
             }
             catch (Exception ex)
             {
