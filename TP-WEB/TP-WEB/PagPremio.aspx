@@ -17,23 +17,49 @@
     </div>
     <!-- Cards -->
     <div class="row">
-         <div class="col-1"></div>
-            <asp:Repeater ID="rptArticulos" runat="server">
-                <ItemTemplate>
-                    <div class="col-3">
-                        <br />
-                        <div class="card border border-black" style="width: 18rem;">
-                            <asp:Image ID="img" runat="server" />
-                            <div class="card-body">
-                                <!-- Nombre y descripcion -->
-                                <h5 class="card-title"><%# Eval("nombre") %></h5>
-                                <p class="card-text"><%#Eval("descripcion") %> </p>
-                                <asp:Button Text="Seleccionar" CssClass="btn btn-primary" ID="btnseleccionar" runat="server" />
+        <div class="col-1"></div>
+        <asp:Repeater ID="rptArticulos" runat="server" OnItemDataBound="rptArticulos_ItemDataBound">
+            <ItemTemplate>
+                <div class="col-3">
+                    <br />
+                    <div class="card border border-black" style="width: 18rem;">
+
+                        <!-- Carrusel por cada artículo -->
+                        <div id='<%# "carrusel" + Container.ItemIndex %>' class="carousel slide">
+                            <div class="carousel-inner">
+                                <asp:Repeater ID="rptImagenes" runat="server">
+                                    <ItemTemplate>
+                                        <div class='carousel-item <%# (Container.ItemIndex == 0 ? "active" : "") %>'>
+                                            <img src='<%# Eval("Url") %>' class="d-block w-100" alt="Imagen">
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:Repeater>
                             </div>
+
+                            <!-- Controles -->
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target='<%# "#carrusel" + Container.ItemIndex %>' data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target='<%# "#carrusel" + Container.ItemIndex %>' data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <!-- Nombre y descripcion -->
+                        <div class="card-body">
+                            <h5 class="card-title"><%# Eval("nombre") %></h5>
+                            <p class="card-text"><%#Eval("descripcion") %> </p>
+                            <asp:Button Text="Seleccionar" CssClass="btn btn-primary" ID="btnseleccionar" runat="server" />
                         </div>
                     </div>
-                </ItemTemplate>
-            </asp:Repeater>
-         <div class="col-1"></div>
+                </div>
+            </ItemTemplate>
+        </asp:Repeater>
+        <div class="col-1"></div>
     </div>
 </asp:Content>
