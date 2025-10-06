@@ -14,10 +14,7 @@ namespace TP_WEB
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                // Al cargar la página inicial, no hace nada.
-            }
+           
         }
 
         protected void txtDNI_TextChanged(object sender, EventArgs e)
@@ -46,11 +43,24 @@ namespace TP_WEB
             Cliente cliente = new Cliente();
             ClienteNegocio negocioCliente = new ClienteNegocio();
             VoucherNegocio negocioVoucher = new VoucherNegocio();
+            ArticuloNegocio negocioArticulo = new ArticuloNegocio();
             EmailService emailService = new EmailService();
 
             try
-            { 
+            {
+                if (Session["Voucher"] == null)
+                {
+                    ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('Debe colocar un voucher antes de participar.');", true);
+                    return;
+                }
+                else if (Session["ArticuloID"] == null)
+                {
+                    ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('Debe seleccionar un artículo antes de participar.');", true);
+                    return;
+                }
+                    
                 cliente = negocioCliente.BuscarCliente(txtDNI.Text);
+
                 if (cliente == null)
                 {
                     cliente = new Cliente();
@@ -90,6 +100,8 @@ namespace TP_WEB
                 emailService.armarCorreo(cliente.Email, cliente.Nombre);
                 emailService.enviarCorreo();
 
+                Session["EmailCliente"] = cliente.Email;
+                Session["ArticuloNombre"] = negocioArticulo.nombreArticulo(idArticulo);
                 Response.Redirect("PagConfirmacion.aspx", false);
             }
             catch (Exception ex)

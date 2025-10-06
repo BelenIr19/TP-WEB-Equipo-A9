@@ -18,7 +18,7 @@ namespace TP_WEB
         {
             if (!IsPostBack)
             {
-            cargarArticulos();
+                cargarArticulos();
             }         
         }
 
@@ -50,6 +50,13 @@ namespace TP_WEB
         {
             if(e.CommandName == "Seleccionado")
             {
+                if (Session["Voucher"] == null)
+                {
+                    ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('Debe colocar un voucher antes de participar.');", true);
+                    return;
+                }
+
+                //Guardar el ID del artículo seleccionado en la sesión
                 int idArticulo = int.Parse(e.CommandArgument.ToString());
                 Session["ArticuloID"] = idArticulo;
 

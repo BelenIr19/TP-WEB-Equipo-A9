@@ -73,6 +73,18 @@ namespace negocio
             }
         }
 
+        public string nombreArticulo(int idArticulo)
+        {
+            string nombre = null;
+            datos.setearConsulta("SELECT Nombre FROM ARTICULOS WHERE Id = @idArticulo");
+            datos.setearParametro("@idArticulo", idArticulo);
+            datos.ejecutarLectura();
+            if(datos.Lector.Read())
+            {
+                nombre = (string)datos.Lector["Nombre"];
+            }
+            return nombre;
+        }
 
         public List<Imagen> ImgArticulos(int idArticulo)
         {
