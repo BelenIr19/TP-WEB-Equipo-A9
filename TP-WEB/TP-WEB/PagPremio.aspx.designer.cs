@@ -11,52 +11,43 @@ namespace TP_WEB
 {
 
 
-    public partial class Default
+    public partial class PagPremio
     {
 
         /// <summary>
-        /// lblVoucher control.
+        /// lblTitulo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblVoucher;
+        protected global::System.Web.UI.WebControls.Label lblTitulo;
 
         /// <summary>
-        /// txtVoucher control.
+        /// rptArticulos control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtVoucher;
+        protected global::System.Web.UI.WebControls.Repeater rptArticulos;
 
         /// <summary>
-        /// rfvVoucher control.
+        /// txtPrueba1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvVoucher;
+        protected global::System.Web.UI.WebControls.Label txtPrueba1;
 
         /// <summary>
-        /// lblErrorVoucher control.
+        /// txtPrueba2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErrorVoucher;
-
-        /// <summary>
-        /// btnSiguiente control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSiguiente;
+        protected global::System.Web.UI.WebControls.Label txtPrueba2;
     }
 }

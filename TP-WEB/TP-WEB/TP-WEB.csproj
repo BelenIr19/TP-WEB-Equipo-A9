@@ -69,6 +69,9 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="PagClienteForm.aspx" />
+    <Content Include="PagConfirmacion.aspx" />
+    <Content Include="PagPremio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +92,27 @@
     <Compile Include="MiMaster.Master.designer.cs">
       <DependentUpon>MiMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="PagClienteForm.aspx.cs">
+      <DependentUpon>PagClienteForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagClienteForm.aspx.designer.cs">
+      <DependentUpon>PagClienteForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagConfirmacion.aspx.cs">
+      <DependentUpon>PagConfirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagConfirmacion.aspx.designer.cs">
+      <DependentUpon>PagConfirmacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PagPremio.aspx.cs">
+      <DependentUpon>PagPremio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PagPremio.aspx.designer.cs">
+      <DependentUpon>PagPremio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +128,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dominio\dominio.csproj">
+      <Project>{1f0b5675-1e7c-4c2f-814d-c1633d277d4b}</Project>
+      <Name>dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\negocio\negocio.csproj">
+      <Project>{f872173c-e5ce-4a3e-8906-50e4e6f57145}</Project>
+      <Name>negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

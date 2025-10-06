@@ -9,8 +9,11 @@
         <div class="col-2"></div>
         <div class="col">
             <div class="mb-3">
+                <br />
                 <asp:Label Text="Ingresá el código de tu voucher" ID="lblVoucher" runat="server" />
                 <asp:TextBox ID="txtVoucher" CssClass="form-control" runat="server" />
+                <asp:RequiredFieldValidator ID="rfvVoucher" ControlToValidate="txtVoucher" ErrorMessage="* El campo es obligatorio" ForeColor="Red" runat="server" />
+                <asp:Label AccessKey="*" ID="lblErrorVoucher" ForeColor="Red" runat="server" />
             </div>
             <asp:Button Text="Siguiente" CssClass="btn btn-primary" ID="btnSiguiente" OnClick="btnSiguiente_Click" runat="server" />
         </div>
